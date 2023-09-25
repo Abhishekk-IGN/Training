@@ -1,0 +1,31 @@
+GIT
+git config --global user.name "UserName"    
+git config --global user.email "mailId"
+git config user.name
+git config user.email
+
+git init
+git status
+git checkout master
+git add .
+git commit -m "Initial Commit"
+git remote set-url origin https://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@github.com/Abhishekk-IGN/Training.git
+git push -u origin master
+git log
+
+
+Branching:
+git branch initial
+git checkout initial
+git checkout -b initial
+git branch
+git add .
+git commit -m "Initial Commit"
+git push -u origin initial
+
+Merge:
+git checkout master
+git merge branch-name
+git add .
+git commit -m "Initial Commit"
+git push -u origin master
